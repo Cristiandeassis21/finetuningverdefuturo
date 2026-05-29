@@ -1,0 +1,2 @@
+FROM mistral
+ADAPTER ./lora_verdefuturo.gguf

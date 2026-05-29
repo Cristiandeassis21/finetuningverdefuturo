@@ -1,0 +1,15 @@
+# Ambiente Virtual
+venv/
+
+# Arquivos de Pesos e Modelos de Grande Porte (MLOps)
+lora_verdefuturo.gguf
+*.gguf
+*.bin
+*.safetensors
+
+# Pastas de Cache do Python e do Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
