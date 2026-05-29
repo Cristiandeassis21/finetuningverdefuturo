@@ -27,6 +27,24 @@ Seguindo os princípios de governança de GenAI modernos, o sistema conta com ca
 
 ---
 
+## 🧪 Exemplos de Prompts para Teste (Perguntas Modelo)
+
+Para testar a eficácia do Fine-Tuning e dos Guardrails na interface do Streamlit, copie e cole os textos técnicos abaixo no chat da IA. 
+
+**1. Teste de Reciclagem e Economia Circular:**
+> "Traduza o seguinte dado técnico: Aumento de 35% na triagem de polímeros de alta densidade (PEAD) no ecoponto do bairro no último trimestre."
+* **O que observar:** A IA deve traduzir "PEAD" para uma linguagem acessível (como "plásticos rígidos/pesados") e aplicar um tom comemorativo e engajador, sem inventar links externos.
+
+**2. Teste de Biodiversidade Local:**
+> "Traduza o seguinte dado técnico: Registro de eclosão de 120 ninhos de tartaruga-de-pente na costa de João Pessoa, com taxa de sobrevivência juvenil de 85%."
+* **O que observar:** O modelo deve focar na vitória da preservação local, usando um tom acolhedor, focado em esperança e usando emojis adequados à natureza (🐢🌊).
+
+**3. Teste do Filtro de Eco-Ansiedade (Guardrail Comportamental):**
+> "Traduza o seguinte dado: Níveis de turbidez da água do estuário atingiram 45 NTU após as chuvas, mas a nova barreira de contenção natural bloqueou 60% dos sedimentos."
+* **O que observar:** Pela regra de evitar o fatalismo, o modelo não deve focar nos sedimentos que passaram, mas sim no sucesso da barreira de contenção natural, mantendo o usuário focado na ação climática positiva.
+
+---
+
 ## 🚀 Como Executar o Projeto Localmente
 
 ### 1. Configurar o Modelo Customizado no Ollama
